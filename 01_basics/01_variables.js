@@ -4,7 +4,7 @@ var accountpassword = "112233"
 accountcity = "Bhopal"
 
 // accountId = 2  // not allowed 
-accountEmail = "deepaklowanshi@gmail.com"
+accountEmail = "deep@gmail.com"
 accountPassword = "123456"
 accountCity = "Indore"
 let accountState; // undefined
@@ -18,6 +18,4 @@ console.log(accountEmail);
 // console.table([accountEmail, accountPassword, accountCity]);
 
 console.table([accountEmail, accountPassword, accountCity, accountState]);
-
-
 
