@@ -84,7 +84,7 @@ num1 = num2 = num3 = 2 + 2;
 let gameCounter = 100 
 gameCounter++;  // ++gameCounter (incement topic )
 console.log(gameCounter); 
-console.log(typeof gameCounter);
+//console.log(typeof gameCounter);
  
 // link to study  
 
