@@ -19,7 +19,9 @@ let state;
 //symbol => unique
     
 //object
-console.log(typeof "Deepak"); 
-console.log(typeof 21);
-console.log(typeof false);
+console.log(typeof "Deepak"); // string 
+console.log(typeof 21); //number
+console.log(typeof false);//boolean
+console.log(typeof null); //object
+
 
