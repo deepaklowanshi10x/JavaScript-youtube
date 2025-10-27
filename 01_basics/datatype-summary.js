@@ -19,9 +19,9 @@ const bigNumber = 7693019716363539848n
 
 // ******* Reference Type (Non Primitive) *********
 
-const heros = ["ajay", "Deepak", "Gulshan"]; // array
+const heros = ["ajay", "Deepak", "Gulshan"];     // array
 
-let myObj = {           // object
+let myObj = {                                    // object
 name : " Deepak ",
 age : 21,
 } 
@@ -32,6 +32,38 @@ const myFunction = Function()                    //function
     
 }  
 
+//********************************************************************************************
+
+// Memory Alocation 
+//they are two type of Memory in javaScript 
+
+// Stack (Primitive)
+// Heap (Non Primitive)
+
+/*       Stack: stack me jab bhi koi variable decalare karte he to ushka copy hi milta he 
+Heap : heap me orignal value ka hi reference milta he like object me koi value change ki to orignal value me hi change hoga 
+
+*/
+
+let myYoutubename = "Deepak Lowanshi"
+let anothername = myYoutubename 
+anothername = "Deepak Lodha"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email : "deepaklowanshi@gmail.com",
+    upi : "deepak@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "deepaklowanshi00@gmail.com" 
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 
