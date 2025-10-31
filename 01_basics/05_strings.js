@@ -19,7 +19,7 @@ console.log(gameName.toLowerCase());
 
 
 console.log(gameName.charAt(2)); // character position janne ke liye
-console.log(gameName.indexOf('i')); // character positiom
+console.log(gameName.indexOf('i')); // character position
 
 
 
