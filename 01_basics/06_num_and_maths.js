@@ -24,9 +24,10 @@ console.log(Math.floor(4.9)); // miche bala number ek bhi kaam ho to //4
 console.log(Math.min(2,5,1,6,3)); // minimum value  
 console.log(Math.max(2,5,1,6,3)); // maximum value  
 console.log(Math.random()); // o to 1 ke beech me random number 
-console.log(Math.random()*10+1) // kaha se kaha tak value chahiye // 1 ko hum is liye lagate he ki 0 value na aaye
+console.log(Math.random()*10+1) // kaha se kaha tak value chahiye // 1 ko hum is liye lagate he ki 0 value na aaye 
 
-//Example : 
+
+//Example :
 const min = 10 
 const max = 20
 console.log(Math.floor(Math.random()*(max-min+1))+min); //random number between min and max value // +min is liye kyuki 10 se uper aaye 
