@@ -36,5 +36,8 @@ newDate.toLocaleDateString('default',{
     weekday : 'long',
 
 }
-)
-dchkchscdscccb
+)  
+
+
+
+deepak liowansajio
