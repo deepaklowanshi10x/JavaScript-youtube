@@ -37,4 +37,9 @@ newDate.toLocaleDateString('default',{
 
 }
 )
+<<<<<<< HEAD
  deeepakkkkkaaaakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+=======
+
+deepak
+>>>>>>> d649025ee68cf48aee9cbcff3f139637240b0445
