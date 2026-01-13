@@ -37,7 +37,3 @@ newDate.toLocaleDateString('default',{
 
 }
 )  
-
-
-
-deepak liowansajio
