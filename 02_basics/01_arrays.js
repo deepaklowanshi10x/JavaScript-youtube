@@ -43,15 +43,15 @@
 //1. slice()- returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included)
 
 const myArr = [0,1,2,3,4,5,]    
-console.log("A", myArr); // Clearty ke liye array print karwaya
+// console.log("A", myArr); // Clearty ke liye array print karwaya
 const myNewArr = myArr.slice(1,3);
-console.log(myNewArr); 
+// console.log(myNewArr); 
 
 
 //2. splice()- changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
 
-console.log("b", myArr); // Clearty ke liye array print karwaya
+// console.log("b", myArr); // Clearty ke liye array print karwaya
 const myNewArr2 = myArr.splice(1,3); 
-console.log("c", myArr); // Clearty ke liye array print karwaya
-console.log(myNewArr2);
+// console.log("c", myArr); // Clearty ke liye array print karwaya
+// console.log(myNewArr2); 
 
