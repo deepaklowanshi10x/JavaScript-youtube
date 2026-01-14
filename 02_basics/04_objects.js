@@ -91,9 +91,9 @@ console.log(coursePrice); // 999
 // API se data aata he to wo JSON format me aata he  
 // JSON object format me kuch is tarah hota he
 // {
-//     coursename : "js basics",
-//     price : 999,
-//     courseInstructor : "Deepak Lowanshi",   
+//     "coursename" : "js basics",
+//     "price" : 999,
+//     "courseInstructor" : "Deepak Lowanshi",   
 // } 
 
 [
