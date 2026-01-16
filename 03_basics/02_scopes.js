@@ -72,4 +72,6 @@ function addOne(num) {
     return num + 2
  } 
 
- addTwo() // return hoga print nahi  print ke liye console
+ addTwo() // return hoga print nahi  print ke liye console 
+
+ 
