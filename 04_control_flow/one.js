@@ -31,16 +31,16 @@
  
 // const balance = 1000    
 // if(balance < 500) {
-//     console.log(" balance less than 500");
+//     console.log(" balance is less than 500");
 // }
 // else if(balance < 900) {
-//     console.log("balance less than 900");
+//     console.log("balance is less than 900");
 // } 
 // else if(balance < 700) {
-//     console.log("balance less than 700");
+//     console.log("balance is less than 700");
 // } 
 // else {
-//     console.log("Balance less than 1200");
+//     console.log("Balance is less than 1200");
 // }
 
 
@@ -51,12 +51,12 @@
 const UserLoggedIn = true
 const debitCard = true 
 const loggedInFromGoogle = false
-const loggedIndEmail = true
+const loggedInEmail = true
 
 if(UserLoggedIn && debitCard) {
     console.log("You can purchase the item");
 } 
 
-if(loggedInFromGoogle || loggedIndEmail) {
+if(loggedInFromGoogle || loggedInEmail) {
     console.log("User logged in successfully");
 }
