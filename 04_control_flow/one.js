@@ -28,16 +28,35 @@
 // line 27 code sahi he bs likhne ka tarika sahi nahi he 
 
 // multiple conditions check karne ke liye
-const balance = 1000
-if(balance < 500) {
-    console.log( "Less than 500");
+ 
+// const balance = 1000    
+// if(balance < 500) {
+//     console.log(" balance less than 500");
+// }
+// else if(balance < 900) {
+//     console.log("balance less than 900");
+// } 
+// else if(balance < 700) {
+//     console.log("balance less than 700");
+// } 
+// else {
+//     console.log("Balance less than 1200");
+// }
+
+
+
+
+// real life example and used 
+
+const UserLoggedIn = true
+const debitCard = true 
+const loggedInFromGoogle = false
+const loggedIndEmail = true
+
+if(UserLoggedIn && debitCard) {
+    console.log("You can purchase the item");
 } 
-else if(balance < 760) {
-    console.log("Less than 760"); 
-}
-else if(balance < 900) {
-    console.log("Less than 900");
-} 
-else {
-    console.log("less than 1200");
+
+if(loggedInFromGoogle || loggedIndEmail) {
+    console.log("User logged in successfully");
 }
