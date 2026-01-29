@@ -31,4 +31,6 @@ const NewNums = numbers.reduce( function (accumulator, currentValue) {
 
  const totalAmount = shoppingCart.reduce( (acc, item) => acc + item.price , 0);
 
-console.log(`Total Amount: ₹${totalAmount}`)
+ console.log(`Total Amount: ₹${totalAmount}`)
+
+   
