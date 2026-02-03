@@ -3,22 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM | JavaScriptYoutube</title>
+    <!-- <script src="script.js"></script> -->
 </head>
-<body>
-<div> 
-    <h1 id="title" class ="heading"> JavaScript in Youtube </h1>
-    <h2>Lorem ipsum dolor sit.</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <input type="Password" name ="" id =""> 
-    
-<ul>
-    <li>One</li>
-    <li>Two</li>
-    <li>Three</li>
-</ul>
-
-</div>
-
+<body style ="background-color: #212121; color : #fff">
+ <div class = "parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div> 
+ </div>
 </body>
+
+<script>
+  const parent = document.querySelector('.parent')
+  //console.log(parent)
+  //console.log(parent.children)
+  //console.log(parent.children[1].innerHTML)
+
+ // for(let i=0; i<parent.children.length; i++) {
+// console.log(parent.children[i].innerHTML)
+//} 
+
+//parent.children[1].style.color ="orange"
+//console.log(parent.firstElementChild) // koi element ko target kar rahe ho tab
+//console.log(parent.lastElementChild) 
+
+const Dayone = document.querySelector('.day')
+//console.log(Dayone)
+//console.log(Dayone.parentElement) // nahi hume parent element bhi dekhna he 
+//console.log(Dayone.nextElementSibling) // first element ke baad second element bata dega 
+
+//console.log("NODES:", parent.childNodes) // yaha hum node list ke bare me learn kar rahe ki kitane child nodes he with space comments like that 
+
+</script>
 </html>
