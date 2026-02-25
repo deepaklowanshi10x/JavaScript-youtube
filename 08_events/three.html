@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ansyc</title>
+</head>
+<body>
+    <h1>JavaScript On Youtube</h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+</body>             
+<script>
+// setInterval
+
+const sayDate = function(){
+    console.log("deepak", Date.now());
+}
+//setInterval(sayDate, 1000);
+
+
+// clearInterval
+
+//const intervalId = setInterval(sayDate, 1000);
+//clearInterval (intervalId);
+
+let intervalId = null; // interval Store karne ke liye
+
+//start
+document.querySelector('#start').addEventListener('click', function(){
+  if(intervalId === null){ 
+    intervalId = setInterval(sayDate, 1000);
+    console.log("START INTERVAL");
+}
+    
+});
+
+//stop
+document.querySelector('#stop').addEventListener('click', function(){
+   clearInterval(intervalId);
+   intervalId = null;
+    console.log("STOP INTERVAL")
+})
+
+</script>
+</html>

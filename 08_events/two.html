@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ansyc</title>
+</head>
+<body>
+    <h1>Deepak Lowanshi</h1>
+    <button id="stop">Stop</button>
+</body>
+
+// SetTimeout 
+
+<script>
+    const sayDeepak = function(){
+        console.log('Deepak');
+    }; 
+
+const changeText = function(){
+        document.querySelector('h1').innerHTML ="Lowanshi ji YT"
+
+}    
+//hendler like sayDeepak
+//setTimeout(sayDeepak, 2000);
+
+//setTimeout (changeText, 2000);
+               
+// set timeout rokane ke liye like clearTimeout() ko rokne ke liye hume setTimeOut ka reference lene padega
+
+const changeMe = setTimeout (changeText, 2000);
+// clear bhi ho to kese ke dbara ho 
+
+document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changeMe)
+console.log("STOPPED")
+})
+
+    
+
+                
+</script>
+</html>
