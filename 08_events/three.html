@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>JavaScript On Youtube</h1>
+    <h2 id="output">Interval Yaha show Hoga</h2>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>             
 <script>
 // setInterval
+const output = document.getElementById("output");
 
 const sayDate = function(){
-    console.log("deepak", Date.now());
+    //console.log("deepak", Date.now());
+    output.innerHTML = "deepak : " + new Date().toLocaleTimeString();
 }
 //setInterval(sayDate, 1000);
 
