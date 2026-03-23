@@ -1,5 +1,5 @@
 const promiseOne = new Promise(function(resolve, reject){
-    // do an async tast
+    // do an async task
     //DB call, APIs calls, network
     setTimeout(function(){
         console.log('Async task is compelete')
@@ -23,7 +23,7 @@ new Promise(function(resolve, reject){
     }, 1000)
 }).then(function(){
     console.log("Async 2 resolve");
-}) 
+})
 
 // 3rd promise 
 const promiseThree =new Promise(function(resolve, reject){
@@ -64,5 +64,55 @@ promiseFour
 })
 .finally(() => console.log("The Promise Is Either Resolved Or Rejected"))
 
-// 5th Promise
+// 5th Promise 
+
+// i used await , catch , try
+
+const promiseFive =new Promise(function(resolve, reject){
+
+    setTimeout(function(){
+        let error = false //true
+        if(!error){
+        resolve({username: "JavaScxript", password: "1234"})
+        } else {
+            reject('ERROR: JS went wrong')
+        }
+    }, 1000)
+})
+ 
+async function consumePromiseFive (){
+    try { 
+        const response = await promiseFive 
+        console.log(response);
+    } catch (error){
+        console.log(error);
+    }
+}
+
+consumePromiseFive()
+
+// fetch 
+
+// async function getAllUsers(){
+//     try {
+//         const response = await fetch('https://api.github.com/users/deepaklowanshi10x') 
+//         const data = await response.json()
+//         console.log(data);
+//     } catch (error){
+//         console.log("E:", error);
+//     }
+// }
+
+// getAllUsers()
+
+
+fetch('https://api.github.com/users/deepaklowanshi10x') 
+.then((response)=>{
+    return response.json()
+})
+.then((data) => {
+    console.log(data);
+})
+.catch((error) => console.log(error))
+
 
