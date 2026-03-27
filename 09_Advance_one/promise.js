@@ -115,4 +115,3 @@ fetch('https://api.github.com/users/deepaklowanshi10x')
 })
 .catch((error) => console.log(error))
 
-
